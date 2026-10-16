@@ -1,101 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2026-10-15T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+<mxfile host="app.diagrams.net" modified="2026-10-16T07:16:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
   <diagram id="spine-research-overview" name="연구 전체 블록도">
-    <mxGraphModel dx="1530" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="3010" math="0" shadow="0"><root>
-      <mxCell id="0"/><mxCell id="1" parent="0"/>
-      <mxCell id="section-DOE" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#D0DBE8;strokeWidth=1.6;fillColor=#F8FAFD;shadow=0;" vertex="1" parent="1"><mxGeometry x="90" y="297" width="1320" height="338" as="geometry"/></mxCell>
-      <mxCell id="section-MODEL" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#D0DBE8;strokeWidth=1.6;fillColor=#F8FAFD;shadow=0;" vertex="1" parent="1"><mxGeometry x="90" y="676" width="1320" height="404" as="geometry"/></mxCell>
-      <mxCell id="section-MAT" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#D0DBE8;strokeWidth=1.6;fillColor=#F8FAFD;shadow=0;" vertex="1" parent="1"><mxGeometry x="90" y="1116" width="1320" height="278" as="geometry"/></mxCell>
-      <mxCell id="section-BC" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#D0DBE8;strokeWidth=1.6;fillColor=#F8FAFD;shadow=0;" vertex="1" parent="1"><mxGeometry x="90" y="1433" width="1320" height="310" as="geometry"/></mxCell>
-      <mxCell id="section-FEA" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#D0DBE8;strokeWidth=1.6;fillColor=#F8FAFD;shadow=0;" vertex="1" parent="1"><mxGeometry x="90" y="1781" width="1320" height="175" as="geometry"/></mxCell>
-      <mxCell id="section-RESP" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#D0DBE8;strokeWidth=1.6;fillColor=#F8FAFD;shadow=0;" vertex="1" parent="1"><mxGeometry x="90" y="1997" width="1320" height="375" as="geometry"/></mxCell>
-      <mxCell id="section-ANALYSIS" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;strokeColor=#D0DBE8;strokeWidth=1.6;fillColor=#F8FAFD;shadow=0;" vertex="1" parent="1"><mxGeometry x="90" y="2411" width="1320" height="341" as="geometry"/></mxCell>
-      <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="A" target="B"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B" target="F"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F" target="L1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F" target="L2"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F" target="L3"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L1" target="M1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L2" target="M1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L3" target="M1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M1" target="M2"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2" target="M3"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M3" target="M4"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M4" target="P1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5" target="C1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e22" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S1" target="S2"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e23" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S2" target="R0"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e24" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S2" target="R4"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e33" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V1" target="V3"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#B88732;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2" target="V3"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e35" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3" target="V4"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="e36" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V4" target="END"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M4" target="P2"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-2" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M4" target="P3"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M4" target="P4"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P1" target="P5"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P2" target="P5"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P3" target="P5"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P4" target="P5"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-8" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5" target="C2"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5" target="C3"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P5" target="C4"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C1" target="BC_SUM"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C2" target="BC_SUM"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-13" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3" target="BC_SUM"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C4" target="BC_SUM"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BC_SUM" target="S1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.045;exitY=1;exitDx=0;exitDy=0;entryX=0.045;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R0" target="R_SUM_L"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-17" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#B88732;strokeWidth=2;endArrow=block;endFill=1;exitX=0.045;exitY=1;exitDx=0;exitDy=0;entryX=0.045;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R4" target="R_SUM_R"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#7993AA;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_SUM_L" target="V1"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="parallel-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;rounded=1;jettySize=auto;html=1;strokeColor=#B88732;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R_SUM_R" target="V2"><mxGeometry relative="1" as="geometry"/></mxCell>
-      <mxCell id="page-title" value="골질별 케이지–종판 계면 안정성 평가 · 연구 전체 블록도" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#173B61;fontFamily=Arial;fontSize=29;fontStyle=1;align=center;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="175" y="12" width="1150" height="42" as="geometry"/></mxCell>
-      <mxCell id="A" value="연구 목적&lt;br/&gt;골질별 케이지–종판 계면 안정성 평가" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#4778A7;strokeWidth=2;fillColor=#E4EEFB;fontColor=#183C62;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="375" y="79" width="750" height="74" as="geometry"/></mxCell>
-      <mxCell id="B" value="연구 가설&lt;br/&gt;골질에 따라 축방향 압축 및&lt;br/&gt;비대칭·회전 침강 위험이 달라지는가?" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="375" y="182" width="750" height="85" as="geometry"/></mxCell>
-      <mxCell id="section-title-DOE" value="1. 실험계획 및 변수 분류" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#263A54;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="122" y="314" width="650" height="39" as="geometry"/></mxCell>
-      <mxCell id="section-title-MODEL" value="2. 유한요소 모델 구성" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#263A54;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="122" y="693" width="650" height="39" as="geometry"/></mxCell>
-      <mxCell id="section-title-MAT" value="3. 골질별 재료 물성 설정" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#263A54;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="122" y="1133" width="650" height="39" as="geometry"/></mxCell>
-      <mxCell id="section-title-BC" value="4. 하중 및 경계조건" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#263A54;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="122" y="1450" width="650" height="39" as="geometry"/></mxCell>
-      <mxCell id="section-title-FEA" value="5. ANSYS 해석" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#263A54;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="122" y="1798" width="650" height="39" as="geometry"/></mxCell>
-      <mxCell id="section-title-RESP" value="6. 반응값 및 평가지표" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#263A54;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="122" y="2014" width="650" height="39" as="geometry"/></mxCell>
-      <mxCell id="section-title-ANALYSIS" value="7. 결과 비교 및 가설 검증" style="text;html=1;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontColor=#263A54;fontFamily=Arial;fontSize=21;fontStyle=1;align=left;verticalAlign=middle;spacing=0;" vertex="1" parent="1"><mxGeometry x="122" y="2428" width="650" height="39" as="geometry"/></mxCell>
-      <mxCell id="F" value="독립요인: 골질" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#4778A7;strokeWidth=2;fillColor=#E4EEFB;fontColor=#183C62;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="551" y="391" width="398" height="66" as="geometry"/></mxCell>
-      <mxCell id="FC" value="통제변수&lt;br/&gt;케이지 형상·위치 / 하중 / 접촉조건" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=6 4;strokeColor=#91A4BB;strokeWidth=1.3;fillColor=#F1F5F9;fontColor=#475569;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1"><mxGeometry x="141" y="385" width="332" height="82" as="geometry"/></mxCell>
-      <mxCell id="FO" value="추가 요인 후보&lt;br/&gt;케이지 강성·구조: 미확정" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=1;dashPattern=6 4;strokeColor=#91A4BB;strokeWidth=1.3;fillColor=#F1F5F9;fontColor=#475569;fontFamily=Arial;fontSize=15;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1"><mxGeometry x="1027" y="385" width="332" height="82" as="geometry"/></mxCell>
-      <mxCell id="L1" value="수준 1: 정상골" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#4778A7;strokeWidth=2;fillColor=#E4EEFB;fontColor=#183C62;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="177" y="514" width="310" height="68" as="geometry"/></mxCell>
-      <mxCell id="L2" value="수준 2: 골감소증" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#4778A7;strokeWidth=2;fillColor=#E4EEFB;fontColor=#183C62;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="595" y="514" width="310" height="68" as="geometry"/></mxCell>
-      <mxCell id="L3" value="수준 3: 골다공증" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#4778A7;strokeWidth=2;fillColor=#E4EEFB;fontColor=#183C62;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="1013" y="514" width="310" height="68" as="geometry"/></mxCell>
-      <mxCell id="M1" value="기존 FEBio L4–L5 모델 활용" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="520" y="747" width="460" height="63" as="geometry"/></mxCell>
-      <mxCell id="M2" value="L4·L5 척추체 / 종판 / 주변 골조직" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="520" y="830" width="460" height="63" as="geometry"/></mxCell>
-      <mxCell id="M3" value="수술 후 추간판·종판 처리 조건 설정" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="520" y="913" width="460" height="63" as="geometry"/></mxCell>
-      <mxCell id="M4" value="고정형 케이지 삽입 및 접촉면 구성" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="520" y="996" width="460" height="63" as="geometry"/></mxCell>
-      <mxCell id="P1" value="피질골 물성" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="151" y="1216" width="269" height="66" as="geometry"/></mxCell>
-      <mxCell id="P2" value="해면골 물성" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="460" y="1216" width="269" height="66" as="geometry"/></mxCell>
-      <mxCell id="P3" value="골성 종판 물성" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="770" y="1216" width="269" height="66" as="geometry"/></mxCell>
-      <mxCell id="P4" value="케이지 재료 물성" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="1080" y="1216" width="269" height="66" as="geometry"/></mxCell>
-      <mxCell id="P5" value="골질 3수준별 물성 적용&lt;br/&gt;문헌 근거 및 물성 검증" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="519" y="1301" width="462" height="68" as="geometry"/></mxCell>
-      <mxCell id="C1" value="L4 상부&lt;br/&gt;축방향 압축하중" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="151" y="1518" width="269" height="84" as="geometry"/></mxCell>
-      <mxCell id="C2" value="L5 하부&lt;br/&gt;Fixed Support" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="460" y="1518" width="269" height="84" as="geometry"/></mxCell>
-      <mxCell id="C3" value="케이지–종판&lt;br/&gt;마찰 접촉" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="770" y="1518" width="269" height="84" as="geometry"/></mxCell>
-      <mxCell id="C4" value="회전 거동을 허용하는&lt;br/&gt;자유도 검토" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="1080" y="1518" width="269" height="84" as="geometry"/></mxCell>
-      <mxCell id="S1" value="메시·접촉·수렴성 검증" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="290" y="1860" width="375" height="68" as="geometry"/></mxCell>
-      <mxCell id="S2" value="골질 3수준별 압축해석" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="835" y="1860" width="375" height="68" as="geometry"/></mxCell>
-      <mxCell id="R0" value="기본 역학적 반응" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="188" y="2073" width="434" height="65" as="geometry"/></mxCell>
-      <mxCell id="R1" value="접촉압력 / 접촉면적" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="220" y="2146" width="402" height="44" as="geometry"/></mxCell>
-      <mxCell id="R2" value="종판·종판하골 응력 및 변형률" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="220" y="2200" width="402" height="44" as="geometry"/></mxCell>
-      <mxCell id="R3" value="케이지 축방향 변위" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="220" y="2254" width="402" height="44" as="geometry"/></mxCell>
-      <mxCell id="R4" value="차별성 후보: 비대칭·회전 거동" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#B88732;strokeWidth=2;fillColor=#FFF1D9;fontColor=#644309;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="879" y="2073" width="434" height="65" as="geometry"/></mxCell>
-      <mxCell id="R5" value="전후·좌우 침하 변위 차이" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#B88732;strokeWidth=2;fillColor=#FFF1D9;fontColor=#644309;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="911" y="2146" width="402" height="44" as="geometry"/></mxCell>
-      <mxCell id="R6" value="케이지 상대 회전각" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#B88732;strokeWidth=2;fillColor=#FFF1D9;fontColor=#644309;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="911" y="2200" width="402" height="44" as="geometry"/></mxCell>
-      <mxCell id="R7" value="손상 위험의 공간적 비대칭성" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#B88732;strokeWidth=2;fillColor=#FFF1D9;fontColor=#644309;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="911" y="2254" width="402" height="44" as="geometry"/></mxCell>
-      <mxCell id="V1" value="골질별 기존 압축 안정성 비교" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="221" y="2497" width="439" height="73" as="geometry"/></mxCell>
-      <mxCell id="V2" value="골질별 비대칭·회전 거동 비교" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#B88732;strokeWidth=2;fillColor=#FFF1D9;fontColor=#644309;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="840" y="2497" width="439" height="73" as="geometry"/></mxCell>
-      <mxCell id="V3" value="축방향 지표와 회전 지표의 판단 비교" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#B88732;strokeWidth=2;fillColor=#FFF1D9;fontColor=#644309;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="505" y="2600" width="490" height="64" as="geometry"/></mxCell>
-      <mxCell id="V4" value="골질별 계면 안정성 차이 해석" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;shadow=0;strokeColor=#B6C6D7;strokeWidth=1.5;fillColor=#FFFFFF;fontColor=#20334A;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="505" y="2682" width="490" height="58" as="geometry"/></mxCell>
-      <mxCell id="END" value="결론&lt;br/&gt;골질별 계면 안정성과&lt;br/&gt;비대칭·회전 위험 평가의 유효성" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#428061;strokeWidth=2;fillColor=#E2F1E8;fontColor=#204D34;fontFamily=Arial;fontStyle=1;fontSize=19;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1"><mxGeometry x="374" y="2812" width="752" height="98" as="geometry"/></mxCell>
-    <mxCell id="BC_SUM" value="하중·경계조건 설정 통합" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#4778A7;strokeWidth=1.7;fillColor=#EDF4FC;fontColor=#1B426C;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="520" y="1640" width="460" height="62" as="geometry"/></mxCell>
-      <mxCell id="R_SUM_L" value="기본 역학 지표 종합" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#4778A7;strokeWidth=1.7;fillColor=#EDF4FC;fontColor=#1B426C;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="188" y="2310" width="434" height="45" as="geometry"/></mxCell>
-      <mxCell id="R_SUM_R" value="비대칭·회전 지표 종합" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;strokeColor=#B88732;strokeWidth=1.7;fillColor=#FFF5E5;fontColor=#644309;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;spacing=10;" vertex="1" parent="1"><mxGeometry x="879" y="2310" width="434" height="45" as="geometry"/></mxCell>
-    </root></mxGraphModel>
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="2670" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="page-title" value="종판·해면골 탄성계수 변화와 케이지 지지거동" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=30;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="28" width="1300" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="page-subtitle" value="연구 전체 블록도  ·  L4–L5 유한요소 모델  ·  축압축 400 N  ·  2요인 × 2수준" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="88" width="1300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A" value="연구 목적&#10;종판·해면골 강성 변화의 개별 기여와&#10;전체 케이지 지지거동의 관계 정량화" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="150" y="156" width="560" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="B" value="연구 질문&#10;해면골 저하의 영향은 종판 강성에 따라 달라지는가?&#10;동시 저하 효과를 개별 효과의 합으로 설명할 수 있는가?" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="790" y="156" width="560" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="purpose-question" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="A" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="section-DOE" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="322" width="1340" height="368" as="geometry" />
+        </mxCell>
+        <mxCell id="section-DOE-title" value="01  실험계획  |  탄성계수 2요인 × 2수준의 네 조합" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="factor-endplate" value="요인 A  ·  골성 종판 탄성계수&#10;기준 10,000 / 저하 6,700 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="40" y="68" width="610" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="factor-trabecular" value="요인 B  ·  해면골 탄성계수&#10;기준 400 / 저하 100 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="690" y="68" width="610" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="case00" value="C00  기준&#10;종판 E = 10,000 MPa&#10;해면골 E = 400 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="40" y="160" width="285" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="case10" value="C10  종판만 저하&#10;종판 E = 6,700 MPa&#10;해면골 E = 400 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="365" y="160" width="285" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="case01" value="C01  해면골만 저하&#10;종판 E = 10,000 MPa&#10;해면골 E = 100 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="690" y="160" width="285" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="case11" value="C11  동시 저하&#10;종판 E = 6,700 MPa&#10;해면골 E = 100 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="1015" y="160" width="285" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="case-note" value="기준·저하는 해석 물성 조합의 명칭이며 실제 환자군을 의미하지 않음.&#10;종판: 케이지와 맞닿는 L4 하부·L5 상부 / 해면골: L4·L5에 동일한 조합 적용." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
+          <mxGeometry x="40" y="288" width="1260" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="question-plan" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="B" target="section-DOE">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="section-MODEL" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="1340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="section-MODEL-title" value="02  모델 구성  |  기존 FEBio L4–L5 모델 활용" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
+          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="M1" value="해부학 모델 확인&#10;골성 종판·해면골·외곽 피질골 분리&#10;ANSYS 사용 시 형상·요소·단위 확인" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
+          <mxGeometry x="40" y="72" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="M2" value="수술 후 모델 구성&#10;추간판 제거·잔존 조직 범위 정의&#10;케이지 지지부의 골성 종판 유지" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
+          <mxGeometry x="475" y="72" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="M3" value="일반 경사형 케이지 1종 삽입&#10;형상·높이·위치·접촉면을 고정&#10;네 조건에서 동일 모델 사용" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
+          <mxGeometry x="910" y="72" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="model-note" value="비교 대상은 탄성계수 조합만 변경하며, 잔존 인대·섬유륜 등 나머지 모델 설정은 동일하게 유지." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
+          <mxGeometry x="40" y="181" width="1260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="model-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="M1" target="M2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="model-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="M2" target="M3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="section-MAT" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1000" width="1340" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="section-MAT-title" value="03  재료 설정과 통제변수" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
+          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="P1" value="변경하는 물성&#10;골성 종판·해면골의 E만 변경&#10;각 조직의 포아송비는 고정" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
+          <mxGeometry x="40" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="P2" value="고정하는 물성&#10;외곽 피질골·케이지·잔존 조직&#10;네 조건에서 동일하게 유지" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
+          <mxGeometry x="365" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="P3" value="동일한 재료모델&#10;골조직은 선형탄성으로 비교&#10;해석된 변형을 손상으로 간주하지 않음" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
+          <mxGeometry x="690" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="P4" value="동일한 형상과 접촉&#10;종판 두께·케이지 형상·위치&#10;접촉 알고리즘·설정 고정" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
+          <mxGeometry x="1015" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="section-BC" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1234" width="1340" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="section-BC-title" value="04  하중·경계조건  |  추가 굴곡·신전 모멘트 없이 축압축 비교" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
+          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="C1" value="L4 상부 하중&#10;축방향 압축 400 N&#10;동일 위치·방향·분포 적용" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
+          <mxGeometry x="40" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="C2" value="L5 하부 고정&#10;하부 표면 Fixed Support&#10;네 조건에서 동일한 구속" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
+          <mxGeometry x="365" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="C3" value="케이지–골성 종판&#10;마찰 접촉&#10;계수·접촉 설정 동일 적용" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
+          <mxGeometry x="690" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="C4" value="추가 모멘트 미적용&#10;굴곡·신전·측굴·축회전&#10;외부 모멘트 하중을 추가하지 않음" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
+          <mxGeometry x="1015" y="72" width="285" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary-note" value="추가 외부 모멘트를 주지 않는다는 의미이며, 구속으로 모든 회전 자유도를 인위적으로 제거하는 것은 아님." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
+          <mxGeometry x="40" y="178" width="1260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="section-FEA" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1498" width="1340" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="section-FEA-title" value="05  해석 및 수치 검증" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
+          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="S1" value="모델·접촉 점검&#10;골성 종판 영역과 접촉면 확인&#10;공통 메시·하중·추출 방식 설정" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
+          <mxGeometry x="40" y="72" width="390" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="S2" value="네 조건 정적 구조해석&#10;400 N까지 동일하게 하중 적용&#10;변위·변형률·반력 결과 추출" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
+          <mxGeometry x="475" y="72" width="390" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="S3" value="수렴·평형 검증&#10;국소 메시 세분화와 접촉 수렴 확인&#10;외력–반력 및 결과 안정성 확인" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF4DE;strokeColor=#D3AB61;strokeWidth=1.5;fontColor=#725116;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
+          <mxGeometry x="910" y="72" width="390" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="verification-note" value="검증 미충족 시 공통 설정을 보완하고 재해석. 수치 오차 크기를 확인한 뒤 조건 간 차이와 상호작용을 해석." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
+          <mxGeometry x="40" y="179" width="1260" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="solve-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="S1" target="S2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="solve-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="S2" target="S3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="section-RESP" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1762" width="1340" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="section-RESP-title" value="06  평가 지표  |  전체 지지응답과 조직별 변형을 구분" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
+          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="R-main" value="주 지표  ·  축방향 지지응답&#10;δ = L4 상면의 면적가중 평균 축방향 압축변위 크기&#10;L5 고정면을 기준으로 측정&#10;구조 강성 K = 400 / δ  [N/mm]" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
+          <mxGeometry x="40" y="72" width="610" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="R-local" value="보조 지표  ·  조직별 변형&#10;케이지 접촉면의 투영 영역 아래 동일 관심영역&#10;골성 종판·해면골의 압축 최소주변형률 크기·분포&#10;영역 평균과 국소 분포를 함께 비교" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
+          <mxGeometry x="690" y="72" width="610" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="response-note" value="강성은 400 N 시점의 할선강성으로 정의. 관심영역·가중 방식은 네 조건에서 같게 유지." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
+          <mxGeometry x="40" y="204" width="1260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="section-ANALYSIS" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="2044" width="1340" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="section-ANALYSIS-title" value="07  결과 비교  |  개별 영향과 상호작용 정량화" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
+          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="V1" value="개별 영향&#10;종판: R10 − R00&#10;해면골: R01 − R00&#10;기준 대비 변화량·변화율 비교" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
+          <mxGeometry x="40" y="72" width="390" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="V2" value="상호작용&#10;I = R11 − R10 − R01 + R00&#10;종판 상태에 따라 해면골 저하의&#10;영향이 얼마나 달라지는지 평가" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
+          <mxGeometry x="475" y="72" width="390" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="V3" value="수치 오차와 비교하여 해석&#10;|I|가 오차 대비 충분히 크면 비가산 효과&#10;작으면 선택한 범위에서 가산적 근사&#10;단일 계산값에 유의확률을 부여하지 않음" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF4DE;strokeColor=#D3AB61;strokeWidth=1.5;fontColor=#725116;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
+          <mxGeometry x="910" y="72" width="390" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="analysis-note" value="R은 같은 지표·같은 관심영역의 결과값. R00=기준, R10=종판만 저하, R01=해면골만 저하, R11=동시 저하.&#10;강성·조직별 변형 지표마다 따로 계산하며, 효과의 방향이나 크기를 미리 확정하지 않음." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
+          <mxGeometry x="40" y="198" width="1260" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="analysis-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="V1" target="V2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="analysis-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="V2" target="V3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="END" value="포스터의 결론 범위&#10;선택한 L4–L5 형상·물성 조합·축압축 조건에서&#10;종판·해면골 탄성계수 변화의 개별 기여와 복합 효과를 설명" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E5F2EA;strokeColor=#70A48A;strokeWidth=1.5;fontColor=#204D34;fontFamily=Noto Sans CJK KR;fontSize=23;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2370" width="1140" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" value="실제 파손 순서·파손하중·진행성 침강·굽힘 및 회전 안정성 예측은 이번 결론에 포함하지 않음." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2505" width="1240" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="탄성계수 출처: Zou et al., Global Spine Journal 14(7), 2024 (온라인 2023)  ·  DOI: 10.1177/21925682231166612&#10;계획 반영: 2026-10-16  ·  기존 L4–L5 모델 사용  ·  단순화 블록 모델은 필수 단계가 아님" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=15;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2560" width="1300" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-section-DOE" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-DOE" target="section-MODEL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-section-MODEL" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-MODEL" target="section-MAT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-section-MAT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-MAT" target="section-BC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-section-BC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-BC" target="section-FEA">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-section-FEA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-FEA" target="section-RESP">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-section-RESP" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-RESP" target="section-ANALYSIS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-section-ANALYSIS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-ANALYSIS" target="END">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
   </diagram>
 </mxfile>
