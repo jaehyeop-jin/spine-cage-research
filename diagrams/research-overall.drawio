@@ -1,209 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net" modified="2026-10-16T07:16:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+<mxfile host="app.diagrams.net" modified="2026-10-18T23:22:48.000Z" agent="ChatGPT" version="24.7.17" type="device">
   <diagram id="spine-research-overview" name="연구 전체 블록도">
-    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="2670" math="0" shadow="0">
+    <mxGraphModel dx="1100" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1260" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="page-title" value="종판·해면골 탄성계수 변화와 케이지 지지거동" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=30;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="100" y="28" width="1300" height="54" as="geometry" />
+        <mxCell id="page-title" value="연구 전체 블록도" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=30;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="25" width="900" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="page-subtitle" value="연구 전체 블록도  ·  L4–L5 유한요소 모델  ·  축압축 400 N  ·  2요인 × 2수준" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="100" y="88" width="1300" height="40" as="geometry" />
+        <mxCell id="page-subtitle" value="종판·해면골 탄성계수 변화와 추간체 케이지 지지거동" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=20;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="70" y="82" width="960" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="A" value="연구 목적&#10;종판·해면골 강성 변화의 개별 기여와&#10;전체 케이지 지지거동의 관계 정량화" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="150" y="156" width="560" height="122" as="geometry" />
+        <mxCell id="A" value="01  연구 목적&#10;종판·해면골 강성 변화의 개별 기여와 복합 효과 규명" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="720" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="B" value="연구 질문&#10;해면골 저하의 영향은 종판 강성에 따라 달라지는가?&#10;동시 저하 효과를 개별 효과의 합으로 설명할 수 있는가?" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="790" y="156" width="560" height="122" as="geometry" />
+        <mxCell id="B" value="02  연구 질문&#10;해면골 강성 저하의 영향은 종판 강성에 따라 달라지는가?&#10;동시 저하 효과를 개별 효과의 합으로 설명할 수 있는가?" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=20;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="277" width="720" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="purpose-question" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="A" target="B">
+        <mxCell id="DOE" value="03  실험계획&#10;종판·해면골 탄성계수 2요인 × 2수준, 총 4조건&#10;형상·기타 물성·하중·접촉조건은 동일하게 유지" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=20;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="424" width="720" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="FEA" value="04  모델 구성 및 해석&#10;L4–L5와 일반 경사형 케이지의 축압축 해석&#10;네 조건의 모델·계산 수렴 확인" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=20;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="571" width="720" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="R-main" value="05-A  전체 지지응답&#10;축방향 변위·구조 강성" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=21;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="115" y="728" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R-local" value="05-B  조직별 변형&#10;종판·해면골 압축변형률" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=21;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="585" y="728" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ANALYSIS" value="06  결과 분석&#10;개별 영향과 상호작용을 정량 비교&#10;조건 간 차이를 수치 오차와 함께 해석" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=20;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="870" width="720" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="END" value="07  결론&#10;선택한 모델·물성·축압축 조건에서&#10;종판·해면골의 개별·복합 기여 설명" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E5F2EA;strokeColor=#70A48A;strokeWidth=1.5;fontColor=#204D34;fontFamily=Noto Sans CJK KR;fontSize=21;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1017" width="720" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="detail-reference" value="물성값·실험계획표·경계조건·수치 검증·계산식&#10;→ 상세 해석 프로세스 블록도: analysis-process.drawio" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1155" width="900" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="flow-A-B" source="A" target="B" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="section-DOE" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="322" width="1340" height="368" as="geometry" />
-        </mxCell>
-        <mxCell id="section-DOE-title" value="01  실험계획  |  탄성계수 2요인 × 2수준의 네 조합" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="factor-endplate" value="요인 A  ·  골성 종판 탄성계수&#10;기준 10,000 / 저하 6,700 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="40" y="68" width="610" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="factor-trabecular" value="요인 B  ·  해면골 탄성계수&#10;기준 400 / 저하 100 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="690" y="68" width="610" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="case00" value="C00  기준&#10;종판 E = 10,000 MPa&#10;해면골 E = 400 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="40" y="160" width="285" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="case10" value="C10  종판만 저하&#10;종판 E = 6,700 MPa&#10;해면골 E = 400 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="365" y="160" width="285" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="case01" value="C01  해면골만 저하&#10;종판 E = 10,000 MPa&#10;해면골 E = 100 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="690" y="160" width="285" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="case11" value="C11  동시 저하&#10;종판 E = 6,700 MPa&#10;해면골 E = 100 MPa" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="1015" y="160" width="285" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="case-note" value="기준·저하는 해석 물성 조합의 명칭이며 실제 환자군을 의미하지 않음.&#10;종판: 케이지와 맞닿는 L4 하부·L5 상부 / 해면골: L4·L5에 동일한 조합 적용." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-DOE">
-          <mxGeometry x="40" y="288" width="1260" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="question-plan" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="B" target="section-DOE">
+        <mxCell id="flow-B-DOE" source="B" target="DOE" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="section-MODEL" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="730" width="1340" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="section-MODEL-title" value="02  모델 구성  |  기존 FEBio L4–L5 모델 활용" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
-          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="M1" value="해부학 모델 확인&#10;골성 종판·해면골·외곽 피질골 분리&#10;ANSYS 사용 시 형상·요소·단위 확인" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
-          <mxGeometry x="40" y="72" width="390" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="M2" value="수술 후 모델 구성&#10;추간판 제거·잔존 조직 범위 정의&#10;케이지 지지부의 골성 종판 유지" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
-          <mxGeometry x="475" y="72" width="390" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="M3" value="일반 경사형 케이지 1종 삽입&#10;형상·높이·위치·접촉면을 고정&#10;네 조건에서 동일 모델 사용" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
-          <mxGeometry x="910" y="72" width="390" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="model-note" value="비교 대상은 탄성계수 조합만 변경하며, 잔존 인대·섬유륜 등 나머지 모델 설정은 동일하게 유지." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MODEL">
-          <mxGeometry x="40" y="181" width="1260" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="model-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="M1" target="M2">
+        <mxCell id="flow-DOE-FEA" source="DOE" target="FEA" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="model-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="M2" target="M3">
+        <mxCell id="flow-FEA-R-main" source="FEA" target="R-main" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.3;exitY=1;entryX=0.5;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="section-MAT" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1000" width="1340" height="194" as="geometry" />
-        </mxCell>
-        <mxCell id="section-MAT-title" value="03  재료 설정과 통제변수" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
-          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="P1" value="변경하는 물성&#10;골성 종판·해면골의 E만 변경&#10;각 조직의 포아송비는 고정" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
-          <mxGeometry x="40" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="P2" value="고정하는 물성&#10;외곽 피질골·케이지·잔존 조직&#10;네 조건에서 동일하게 유지" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
-          <mxGeometry x="365" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="P3" value="동일한 재료모델&#10;골조직은 선형탄성으로 비교&#10;해석된 변형을 손상으로 간주하지 않음" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
-          <mxGeometry x="690" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="P4" value="동일한 형상과 접촉&#10;종판 두께·케이지 형상·위치&#10;접촉 알고리즘·설정 고정" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-MAT">
-          <mxGeometry x="1015" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="section-BC" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1234" width="1340" height="224" as="geometry" />
-        </mxCell>
-        <mxCell id="section-BC-title" value="04  하중·경계조건  |  추가 굴곡·신전 모멘트 없이 축압축 비교" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
-          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="C1" value="L4 상부 하중&#10;축방향 압축 400 N&#10;동일 위치·방향·분포 적용" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
-          <mxGeometry x="40" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="C2" value="L5 하부 고정&#10;하부 표면 Fixed Support&#10;네 조건에서 동일한 구속" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
-          <mxGeometry x="365" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="C3" value="케이지–골성 종판&#10;마찰 접촉&#10;계수·접촉 설정 동일 적용" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
-          <mxGeometry x="690" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="C4" value="추가 모멘트 미적용&#10;굴곡·신전·측굴·축회전&#10;외부 모멘트 하중을 추가하지 않음" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
-          <mxGeometry x="1015" y="72" width="285" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="boundary-note" value="추가 외부 모멘트를 주지 않는다는 의미이며, 구속으로 모든 회전 자유도를 인위적으로 제거하는 것은 아님." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-BC">
-          <mxGeometry x="40" y="178" width="1260" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="section-FEA" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1498" width="1340" height="224" as="geometry" />
-        </mxCell>
-        <mxCell id="section-FEA-title" value="05  해석 및 수치 검증" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
-          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="S1" value="모델·접촉 점검&#10;골성 종판 영역과 접촉면 확인&#10;공통 메시·하중·추출 방식 설정" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
-          <mxGeometry x="40" y="72" width="390" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="S2" value="네 조건 정적 구조해석&#10;400 N까지 동일하게 하중 적용&#10;변위·변형률·반력 결과 추출" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
-          <mxGeometry x="475" y="72" width="390" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="S3" value="수렴·평형 검증&#10;국소 메시 세분화와 접촉 수렴 확인&#10;외력–반력 및 결과 안정성 확인" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF4DE;strokeColor=#D3AB61;strokeWidth=1.5;fontColor=#725116;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
-          <mxGeometry x="910" y="72" width="390" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="verification-note" value="검증 미충족 시 공통 설정을 보완하고 재해석. 수치 오차 크기를 확인한 뒤 조건 간 차이와 상호작용을 해석." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-FEA">
-          <mxGeometry x="40" y="179" width="1260" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="solve-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="S1" target="S2">
+        <mxCell id="flow-FEA-R-local" source="FEA" target="R-local" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.7;exitY=1;entryX=0.5;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solve-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="S2" target="S3">
+        <mxCell id="flow-R-main-ANALYSIS" source="R-main" target="ANALYSIS" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.25;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="section-RESP" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1762" width="1340" height="242" as="geometry" />
-        </mxCell>
-        <mxCell id="section-RESP-title" value="06  평가 지표  |  전체 지지응답과 조직별 변형을 구분" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
-          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="R-main" value="주 지표  ·  축방향 지지응답&#10;δ = L4 상면의 면적가중 평균 축방향 압축변위 크기&#10;L5 고정면을 기준으로 측정&#10;구조 강성 K = 400 / δ  [N/mm]" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
-          <mxGeometry x="40" y="72" width="610" height="128" as="geometry" />
-        </mxCell>
-        <mxCell id="R-local" value="보조 지표  ·  조직별 변형&#10;케이지 접촉면의 투영 영역 아래 동일 관심영역&#10;골성 종판·해면골의 압축 최소주변형률 크기·분포&#10;영역 평균과 국소 분포를 함께 비교" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
-          <mxGeometry x="690" y="72" width="610" height="128" as="geometry" />
-        </mxCell>
-        <mxCell id="response-note" value="강성은 400 N 시점의 할선강성으로 정의. 관심영역·가중 방식은 네 조건에서 같게 유지." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-RESP">
-          <mxGeometry x="40" y="204" width="1260" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="section-ANALYSIS" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#F8FAFD;strokeColor=#D0DBE8;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="2044" width="1340" height="276" as="geometry" />
-        </mxCell>
-        <mxCell id="section-ANALYSIS-title" value="07  결과 비교  |  개별 영향과 상호작용 정량화" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#263A54;fontFamily=Noto Sans CJK KR;fontSize=22;fontStyle=1;align=left;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
-          <mxGeometry x="30" y="15" width="1280" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="V1" value="개별 영향&#10;종판: R10 − R00&#10;해면골: R01 − R00&#10;기준 대비 변화량·변화율 비교" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#B9C9D9;strokeWidth=1.5;fontColor=#20334A;fontFamily=Noto Sans CJK KR;fontSize=19;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
-          <mxGeometry x="40" y="72" width="390" height="112" as="geometry" />
-        </mxCell>
-        <mxCell id="V2" value="상호작용&#10;I = R11 − R10 − R01 + R00&#10;종판 상태에 따라 해면골 저하의&#10;영향이 얼마나 달라지는지 평가" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E9F1FB;strokeColor=#6B91B5;strokeWidth=1.5;fontColor=#183C62;fontFamily=Noto Sans CJK KR;fontSize=18;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
-          <mxGeometry x="475" y="72" width="390" height="112" as="geometry" />
-        </mxCell>
-        <mxCell id="V3" value="수치 오차와 비교하여 해석&#10;|I|가 오차 대비 충분히 크면 비가산 효과&#10;작으면 선택한 범위에서 가산적 근사&#10;단일 계산값에 유의확률을 부여하지 않음" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#FFF4DE;strokeColor=#D3AB61;strokeWidth=1.5;fontColor=#725116;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
-          <mxGeometry x="910" y="72" width="390" height="112" as="geometry" />
-        </mxCell>
-        <mxCell id="analysis-note" value="R은 같은 지표·같은 관심영역의 결과값. R00=기준, R10=종판만 저하, R01=해면골만 저하, R11=동시 저하.&#10;강성·조직별 변형 지표마다 따로 계산하며, 효과의 방향이나 크기를 미리 확정하지 않음." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=16;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="section-ANALYSIS">
-          <mxGeometry x="40" y="198" width="1260" height="57" as="geometry" />
-        </mxCell>
-        <mxCell id="analysis-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="V1" target="V2">
+        <mxCell id="flow-R-local-ANALYSIS" source="R-local" target="ANALYSIS" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.75;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="analysis-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="V2" target="V3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="END" value="포스터의 결론 범위&#10;선택한 L4–L5 형상·물성 조합·축압축 조건에서&#10;종판·해면골 탄성계수 변화의 개별 기여와 복합 효과를 설명" style="rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=#E5F2EA;strokeColor=#70A48A;strokeWidth=1.5;fontColor=#204D34;fontFamily=Noto Sans CJK KR;fontSize=23;fontStyle=1;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="180" y="2370" width="1140" height="122" as="geometry" />
-        </mxCell>
-        <mxCell id="scope" value="실제 파손 순서·파손하중·진행성 침강·굽힘 및 회전 안정성 예측은 이번 결론에 포함하지 않음." style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=17;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="130" y="2505" width="1240" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="source" value="탄성계수 출처: Zou et al., Global Spine Journal 14(7), 2024 (온라인 2023)  ·  DOI: 10.1177/21925682231166612&#10;계획 반영: 2026-10-16  ·  기존 L4–L5 모델 사용  ·  단순화 블록 모델은 필수 단계가 아님" style="text;rounded=1;arcSize=10;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#62758B;fontFamily=Noto Sans CJK KR;fontSize=15;fontStyle=0;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
-          <mxGeometry x="100" y="2560" width="1300" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="flow-section-DOE" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-DOE" target="section-MODEL">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="flow-section-MODEL" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-MODEL" target="section-MAT">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="flow-section-MAT" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-MAT" target="section-BC">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="flow-section-BC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-BC" target="section-FEA">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="flow-section-FEA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-FEA" target="section-RESP">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="flow-section-RESP" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-RESP" target="section-ANALYSIS">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="flow-section-ANALYSIS" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="section-ANALYSIS" target="END">
+        <mxCell id="flow-ANALYSIS-END" source="ANALYSIS" target="END" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=0;strokeColor=#8198AE;strokeWidth=2;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
